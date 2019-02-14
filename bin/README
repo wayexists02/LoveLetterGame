@@ -1,0 +1,28 @@
+작성해야하는 부분
+
+Client 패키지에서 ...
+
+	
+	LoveLetter_Client 클래스에서 ...
+	
+		clientStart 메서드
+	  		: 서버가 작동중인 상태에서 메세지를 수시로 받는다.(쓰레드)
+	  
+		actionPerfomed
+			: 주석참조
+			
+	LoveLetter_Client_GUI_Game 클래스 ...
+	여기는 jbt_ready 관련 빼고는 싹다 지우고 편의에 따라 다시 짜도 상관없음.
+
+  
+Server 패키지에서 ...
+
+	LoveLetter_Server 클래스에서 ...
+		
+		startGame 메서드
+			: 게임에 관련된 모든 처리를 여기서 한다.(메세지 수신 제외)
+			
+		내부 클래스  Client 에서...
+			run
+			: 클라이언트로부터 메세지를 수신하고 수신한 메세지를 처리하는 역할을 한다.
+  
